@@ -1,18 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package Biblioteca;
 import java.util.ArrayList;
-
 
 /**
  * Esta clase es para agregar, eliminar, visualizar y buscar los libros en el sistema de bibliotecas
  * @author Mateo Grisales
  */
+
 public class Biblioteca {
-    
-    private  ArrayList<Libro> libros;
+
+      private  ArrayList<Libro> libros;
 
     //Constructor
     public Biblioteca(ArrayList<Libro> libros) {
@@ -52,11 +47,10 @@ public class Biblioteca {
 
     @Override
     public String toString() {
-        return "Biblioteca{" + "libros=" + libros + '}';
+        return "Biblioteca [libros=" + libros + "]";
     }
+
+    
     
     
 }
-
-
-
